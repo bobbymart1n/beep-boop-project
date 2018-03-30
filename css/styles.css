@@ -17,6 +17,10 @@ body {
   color: white;
   opacity: .6;
 }
+img {
+  max-width: 150px;
+  margin-top: 40px;
+}
 form {
   display: flex;
   margin: 0 auto;
