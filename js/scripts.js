@@ -1,7 +1,8 @@
 function beepBoop(number) {
   var numArray = [];
   for (var i = 0; i <= number; i++) {
-    console.log(number[i]);
+    var strArray = i.toString().split('');
+    console.log(strArray);
     if (i === 0) {
       numArray.push("Beep!");
     } else if (i === 1) {
