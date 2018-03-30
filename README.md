@@ -21,5 +21,9 @@ This project takes a number from the user, and returns a word if the number cont
 * Clone this repository
 * Open in a web browser or text editor
 
+# Technologies Used
+* HTML/CSS
+* JavaScript/jQuery
+
 This project uses the _MIT License_
 &copy; Bobby Martin 2018
