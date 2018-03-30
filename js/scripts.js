@@ -9,7 +9,7 @@ function beepBoop(number) {
     } else if (strArray.includes("0")) {
       numArray.push(" Beep!");
     } else {
-      numArray.push(i);
+      numArray.push(" " + i);
     }
   }
   return numArray;
@@ -22,5 +22,6 @@ $(function() {
     event.preventDefault();
     var userInput = $("#userInput").val();
     $("#output h3").text(beepBoop(userInput));
+    $("#output").show();
   });
 });
