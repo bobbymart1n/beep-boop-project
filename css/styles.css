@@ -1,3 +1,7 @@
 #output {
   display: none;
 }
+
+#output h3 {
+  line-height: 1.4;
+}
