@@ -4,6 +4,7 @@
 ## By Bobby Martin
 
 # Description
+This project takes a number from the user, and returns a word if the number contains 1, 0, or is divisible by 3.
 
 # Project Specifications
 * Program replaces 0 with "_Beep!_"
@@ -14,7 +15,7 @@
   * **Example Output: ["Boop!"]**
 * Program replaces numbers that are divisible by 3 with "_I'm sorry Dave. I'm afraid I can't do that._"
   * **Example Input: 6**
-  * **Example Output: ["I'm sorry Dave. I'm afraid I can't do that."]** 
+  * **Example Output: ["I'm sorry Dave. I'm afraid I can't do that."]**
 
 # Setup Requirements
 * Clone this repository
