@@ -2,6 +2,10 @@ body {
   background: linear-gradient(to right, #606c88, #3f4c6b);
   height: 100%;
 }
+h1, h2, h3 {
+  font-family: 'Press Start 2P', cursive;
+}
+
 .inner-container {
   min-height: 400px;
   display: flex;
@@ -10,10 +14,8 @@ body {
   align-items: center;
 }
 .inner-container h1 {
-  font-size: 60px;
-  text-decoration: underline;
-  font-weight: 700;
-  margin-bottom: 30px;
+  font-size: 30px;
+  margin-bottom: 20px;
   color: white;
   opacity: .8;
 }
@@ -55,4 +57,5 @@ form .btn-danger:hover {
 }
 #output h3 {
   line-height: 1.4;
+  font-size: 20px;
 }
