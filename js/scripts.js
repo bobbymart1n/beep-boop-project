@@ -23,5 +23,9 @@ $(function() {
     var userInput = $("#userInput").val();
     $("#output h3").text(beepBoop(userInput));
     $("#output").show();
+    $("#reverse").click(function() {
+      $("#output h3").empty();
+      $("#output h3").text(beepBoop(userInput).reverse());
+    });
   });
 });
