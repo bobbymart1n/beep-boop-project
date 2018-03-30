@@ -1,3 +1,5 @@
+/*  General Styles
+=============================*/
 body {
   background: linear-gradient(to right, #606c88, #3f4c6b);
   height: 100%;
@@ -5,7 +7,18 @@ body {
 h1, h2, h3 {
   font-family: 'Press Start 2P', cursive;
 }
-
+img {
+  max-width: 150px;
+  margin-top: 40px;
+}
+form {
+  display: flex;
+  margin: 0 auto;
+  max-width: 600px;
+  width: 100%;
+}
+/*  Container Styles
+=============================*/
 .inner-container {
   min-height: 400px;
   display: flex;
@@ -19,16 +32,8 @@ h1, h2, h3 {
   color: white;
   opacity: .8;
 }
-img {
-  max-width: 150px;
-  margin-top: 40px;
-}
-form {
-  display: flex;
-  margin: 0 auto;
-  max-width: 600px;
-  width: 100%;
-}
+/*  Form Styles
+=============================*/
 form .form-control {
   border: 3px solid #C8D3D5;
 }
@@ -48,6 +53,8 @@ form .btn-danger {
 form .btn-danger:hover {
   background-color: rgba(12,202,74, .4);
 }
+/*  Output Styles 
+=============================*/
 #output {
   display: none;
   background: rgba(255,255,255, .3);
