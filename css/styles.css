@@ -1,5 +1,34 @@
+body {
+  background: linear-gradient(to right, #606c88, #3f4c6b);
+  height: 100%;
+}
+.inner-container {
+  min-height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.inner-container h1 {
+  margin-bottom: 30px;
+  color: white;
+  opacity: .6;
+}
+form {
+  display: flex;
+  margin: 0 auto;
+  max-width: 600px;
+  width: 100%;
+}
+form .btn-primary {
+  margin: 0 10px;
+}
 #output {
   display: none;
+  background: rgba(255,255,255, .3);
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 60px;
 }
 
 #output h3 {
