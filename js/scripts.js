@@ -15,8 +15,6 @@ function beepBoop(number) {
   return numArray;
 }
 
-
-
 $(function() {
   $("#form").submit(function(event) {
     event.preventDefault();
